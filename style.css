@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@300;600;700&display=swap');
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--Very-ligh-gray);
+    font-size: 15px;
+}
+
+:root{
+/*Colors
+Primary
+*/
+--Bright-orange: hsl(31, 77%, 52%);
+--Dark-cyan: hsl(184, 100%, 22%);
+--Very-dark-cyan: hsl(179, 100%, 13%);
+
+/*Neutral*/
+--Transparent-white /*(paragraphs)*/: hsla(0, 0%, 100%, 0.75);
+--Very-ligh-gray /*(background, headings, buttons)*/: hsl(0, 0%, 95%);
+}
+
+.container{
+    width: 900px;
+    height: 450px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.card1{
+    width: 300px;
+    height: 500px;
+    background-color: var(--Bright-orange);
+}
+
+.card2{
+    width: 300px;
+    height: 500px;
+    background-color: var(--Dark-cyan);
+}
+
+.card3{
+    width: 300px;
+    height: 500px;
+    background-color: var(--Very-dark-cyan);
+}
+
+.pic{
+    margin: 40px;
+}
+
+h1{
+    color: var(--Very-ligh-gray);
+    font-family: 'Big Shoulders Display';
+    text-transform: uppercase;
+    margin: 40px;
+    margin-top: -10px;
+}
+
+p{
+    color: var(--Transparent-white);
+    font-family: 'Lexend Deca';
+    margin: 40px;
+    margin-top: -15px;
+    margin-right: 50px;
+}
+
+.first{
+    border: none;
+    background-color: var(--Very-ligh-gray);
+    margin: 40px;
+    height: 40px;
+    border-radius: 25px;
+    width: 120px;
+    color: var(--Bright-orange);
+    font-family: 'Lexend Deca';
+    margin-top: 50px;
+}
+
+.second{
+    border: none;
+    background-color: var(--Very-ligh-gray);
+    margin: 40px;
+    height: 40px;
+    border-radius: 25px;
+    width: 120px;
+    color: var(--Dark-cyan);
+    font-family: 'Lexend Deca';
+    margin-top: 50px;
+}
+
+.third{
+    border: none;
+    background-color: var(--Very-ligh-gray);
+    margin: 40px;
+    height: 40px;
+    border-radius: 25px;
+    width: 120px;
+    color: var(--Very-dark-cyan);
+    font-family: 'Lexend Deca';
+    margin-top: 50px;
+}
+/*
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700
+*/
